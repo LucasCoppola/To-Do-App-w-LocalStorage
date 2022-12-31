@@ -98,7 +98,7 @@ body{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 400px) and (max-width: 605px) {
+@media (width < 605px) {
 
     .header .title{
         font-size: 3em;
@@ -118,4 +118,25 @@ body{
         height: 30px;
     }
 
+}
+
+@media (width > 350px){
+
+    .header .title{
+        font-size: 3em;
+    }
+
+    .header input{
+        width: 250px;
+        height: 35px;
+    }
+
+    .header button{
+        height: 35px;
+    }
+
+    .list-items li{
+        width: 270px;
+        height: 30px;
+    }
 }
