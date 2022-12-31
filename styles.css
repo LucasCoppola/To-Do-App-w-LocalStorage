@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(0.25turn,#7d8597, #023e8a);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    margin: 80px auto 30px auto;
+}
+
+.header .title{
+    color: rgb(220, 219, 219);
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.header input{
+    border: none;
+    outline: none;
+    padding: .6em .8em;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 500px;
+    height: 40px;
+    background-color: #010d1a;
+    color: rgb(188, 187, 187);
+}
+
+.header button{
+    position: relative;
+    right: 4px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: .4em .8em;
+    height: 40px;
+    background-color: rgb(220, 219, 219);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header input:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+}
+
+.header button:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background: darken(#FC6E51,7%);
+    transform: translateY(-1px);
+}
+
+.list-items li{
+    background-color: hsl(0, 12%, 32%);
+    margin: 12px auto;
+    width: 350px;
+    height: 35px;
+    padding: .2em .8em;
+    border-radius: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-items .gg-check{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gg-check:hover{
+    transform: translateY(-2px);
+}
+
+#clear-btn{
+    border: none;
+    border-radius: 20px;
+    padding: .4em .8em;
+    height: 30px;
+    background-color: rgb(220, 219, 219);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#clear-btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 400px) and (max-width: 605px) {
+
+    .header .title{
+        font-size: 3em;
+    }
+
+    .header input{
+        width: 300px;
+        height: 35px;
+    }
+
+    .header button{
+        height: 35px;
+    }
+
+    .list-items li{
+        width: 300px;
+        height: 30px;
+    }
+
+}
