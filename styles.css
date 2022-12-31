@@ -120,23 +120,23 @@ body{
 
 }
 
-@media (width > 350px){
+@media (width > 299px) and (max-width: 350px){
 
     .header .title{
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .header input{
-        width: 250px;
-        height: 35px;
+        width: 200px;
+        height: 30px;
     }
 
     .header button{
-        height: 35px;
+        height: 30px;
     }
 
     .list-items li{
-        width: 270px;
+        width: 220px;
         height: 30px;
     }
 }
