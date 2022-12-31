@@ -120,7 +120,7 @@ body{
 
 }
 
-@media (width > 299px) and (max-width: 350px){
+@media (width > 280px) and (max-width: 350px){
 
     .header .title{
         font-size: 2em;
